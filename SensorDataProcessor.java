@@ -1,4 +1,6 @@
-public class SensorDataProcessor {
+import java.io.*; //added an import for file input {ahmad}
+
+public class SensorDataProcessor { // changed file name to suit the class name {ahmad}
 
     // Senson data and limits.
     public double[][][] data;
