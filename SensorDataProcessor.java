@@ -12,15 +12,13 @@ public class SensorDataProcessor { // changed file name to suit the class name {
         this.limit = limit; 
     }
 
-    // calculates average of sensor data
+    // calculates the average of sensor data
     private double average(double[] array) {
-        int i = 0;
-        double val = 0;
-        for (i = 0; i < array.length; i++) {
-            val += array[i];
+        double sum = 0;
+        for (double val : array) {
+            sum += val;
         }
-
-        return val / array.length;
+        return sum / array.length;
     }
 
     // calculate data
