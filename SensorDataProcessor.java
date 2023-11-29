@@ -6,7 +6,7 @@ public class SensorDataProcessor { // changed file name to suit the class name {
     public double[][][] data;
     public double[][] limit;
 
-    // Corrected constructor name {Feras}
+    // Corrected constructor name {jm}
     public SensorDataProcessor(double[][][] data, double[][] limit) { 
         this.data = data; 
         this.limit = limit; 
